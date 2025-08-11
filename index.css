@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f5f5f5;
-
 }
 .nav-bar {
     display: flex;
@@ -56,5 +55,95 @@ body {
 .nav-bar .nav-btn:hover {
     background-color: darkgoldenrod;
 }
-
-
+.upper-side {
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)),url(img/clean1.jpg)center/cover no-repeat;
+}
+.upper-side .para {
+    width: 600px;
+    padding: 190px 40px;
+    max-width: 800px;
+}
+.upper-side .para h4{
+    background-color: rgb(192, 188, 188);
+    border-radius: 100px;
+    display: inline;
+    padding: 7px 12px;
+}
+.upper-side .para h1 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #f5f5f5;
+    margin-top: 20px;
+}
+.upper-side .para p {
+    font-size: 15px;
+    color: #f5f5f5;
+    margin-top: 7px;
+    width: 350px;
+    margin-bottom: 12px;
+}
+.upper-side .but {
+    display: flex;
+    gap: 20px;
+}
+.upper-side .but .para-but {
+    padding: 10px 12px;
+    border-radius: 90px;
+    border: none;
+    height: 40px;
+}
+.upper-side .but .para-but a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.upper-side .but .lan {
+    background-color: darkgoldenrod;
+    transition: background-color 0.3s ease;
+}
+.upper-side .but .lan:hover {
+    background-color: rgb(110, 95, 58);
+}
+.upper-side .but .wan {
+    background-color: transparent;
+    color: #f5f5f5;
+    transition: background-color 0.3s ease;
+}
+.upper-side .but .wan a {
+    color: #f5f5f5;
+}
+.upper-side .but .wan:hover {
+    background-color: rgb(110, 95, 58);
+}
+.upper-side .bata {
+    padding: 40px;
+}
+.upper-side .bata .bata-img {
+    display: flex;
+    color: #f5f5f5;
+    gap: 20px;
+}
+.upper-side .bata .bata-img img {
+    width: 40px;
+    border-radius: 100px;
+    margin-top: 13px;
+}
+.upper-side .bata .bata-img p{
+    margin-bottom: 15px;
+}
+.upper-side .bata .bata-butts {
+   text-align: right;
+}
+.upper-side .bata .bata-butts a  {
+    background-color: rgb(192, 188, 188);
+    padding: 10px 10px;
+    border-radius: 100px;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 12px;
+    transition: background-color 0.3s ease;
+}
+.upper-side .bata .bata-butts a:hover {
+    background-color: darkgoldenrod;
+}
