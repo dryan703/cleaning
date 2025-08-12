@@ -178,10 +178,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 19px;
+    text-align: center;
 }
 .Service .serv-img .sets{
     position: relative;
-    width: 40%;
+    width: 500px;
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -190,9 +191,11 @@ body {
 }
 .Service .serv-img .win {
     background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/clean5.jpg)center/cover no-repeat;
+    width: 40%;
 }
 .Service .serv-img .laun {
     background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/clean6.jpeg)center/cover no-repeat;
+    width: 40%;
 }
 .Service .serv-img p {
     color: white;
@@ -275,8 +278,11 @@ body {
     text-decoration: none;
     color: #000;
 }
+.choose .choos-img {
+    width: 500px;
+}
 .choose .choos-img img {
-    width: 550px;
+    width: 100%;
     margin-top: 30px;
     border-radius: 15px;
     height: 100%;
@@ -441,6 +447,12 @@ footer a:hover {
     .Service .serv-img {
         flex-direction: column;
     }
+    .Service .serv-img .win {
+        width: 100%;
+    }
+    .Service .serv-img .laun {
+        width: 100%;
+    }
     .Service .sets p {
     }
     .grid .grid-lit {
@@ -453,8 +465,7 @@ footer a:hover {
         margin-top: -30px;
     }
     .choose .choos-img img {
-        width: 370px;
-        margin-top: -25px;
+        margin-top: -30px;
     }
     .story .story-cont p{
         margin-top: -30px;
