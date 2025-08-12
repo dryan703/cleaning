@@ -287,3 +287,54 @@ body {
     border-radius: 15px;
     height: 100%;
 }
+.story {
+    padding: 20px 30px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, white, rgb(163, 161, 161)), linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2));
+}
+.story .story-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 70px;
+}
+.story .story-cont .me {
+    font-size: 40px;
+    font-weight: 600;
+}
+.history {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.history .his-cont {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.history .his-card {
+    background: transparent;
+    border-radius: 19px;
+    padding: 2.0rem;
+    text-align: left;
+}
+.story .atss {
+    margin-top: -60px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 500px;
+}
+.story .atss img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
