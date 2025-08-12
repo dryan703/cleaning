@@ -225,6 +225,9 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     text-align: left;
 }
+.Service .grid-lit .card img {
+    width: 50px;
+}
 .Service .grid-lit .card h3 {
     font-weight: 600;
 }
@@ -269,6 +272,9 @@ body {
     border-radius: 100px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+.choose .choos-butns button:hover {
+    background-color: rgb(110, 95, 58);
 }
 .choose .choos-butns a {
     text-decoration: none;
