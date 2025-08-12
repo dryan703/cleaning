@@ -126,7 +126,7 @@ body {
 .upper-side .bata .bata-img img {
     width: 40px;
     border-radius: 100px;
-    margin-top: 13px;
+    margin-top: 9px;
 }
 .upper-side .bata .bata-img p{
     margin-bottom: 15px;
@@ -146,4 +146,137 @@ body {
 }
 .upper-side .bata .bata-butts a:hover {
     background-color: darkgoldenrod;
+}
+.rate-container{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: linear-gradient(to right, white, rgb(163, 161, 161)), linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2));
+}
+.rate-container .card {
+    text-align: left;
+    border-left: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+.Service {
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(to right, white, rgb(163, 161, 161)), linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2));
+}
+.Service h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Service p {
+    margin-bottom: 35px;
+}
+.Service .serv-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    max-width: 1200px;
+}
+.Service .serv-img .sets{
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-bottom: 30px; 
+}
+.Service .serv-img .win {
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/clean5.jpg)center/cover no-repeat;
+    min-width: 500px;
+}
+.Service .serv-img .laun {
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/clean6.jpeg)center/cover no-repeat;
+    min-width: 500px;
+}
+.Service .serv-img p {
+    color: white;
+    padding: 10px ;
+    margin-top: 500px;
+    text-align: left;
+}
+.Service .grid {
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.Service .grid .grid-lit {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 30px;
+}
+.Service .grid-lit .card {
+    background: #f7f1f1;
+    border-radius: 19px;
+    padding: 3.0rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: left;
+}
+.Service .grid-lit .card h3 {
+    font-weight: 600;
+}
+.Service .grid-lit .card p {
+    font-size: 13px;
+}
+.choose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.choose .why-choos h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.choose .why-choos .asps {
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.choose .choos-cont .items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.choose .choos-cont .icon img {
+    width: 50px;
+    margin-top: -10px;
+}
+.choose .choos-cont .choos-info p {
+    font-weight: 600;
+}
+.choose .choos-butns button {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background-color: darkgoldenrod;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.choose .choos-butns a {
+    text-decoration: none;
+    color: #000;
+}
+.choose .choos-img img {
+    width: 550px;
+    margin-top: 30px;
+    border-radius: 15px;
+    height: 100%;
 }
