@@ -452,6 +452,9 @@ footer a:hover {
     .Service .serv-img .win {
         width: 100%;
     }
+    .Service .serv-img p {
+        margin-top: 250px;
+    }
     .Service .serv-img .laun {
         width: 100%;
     }
@@ -480,4 +483,7 @@ footer a:hover {
     }
     .testimonial .contact {
     margin-left: 20px;
+    }
+    .testimonial .contact .cont-img {
+        text-align: center;
     }
