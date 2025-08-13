@@ -376,6 +376,9 @@ body {
 .testimonial .contact h2 {
     margin-bottom: 20px;
 }
+.testimonial .contact .cont-img {
+    text-align: center;
+}
 .testimonial .c-icon img{
     width: 40px;
 }
@@ -482,8 +485,5 @@ footer a:hover {
         flex-direction: column;
     }
     .testimonial .contact {
-    margin-left: 20px;
-    }
-    .testimonial .contact .cont-img {
-        text-align: center;
+        margin-left: 0px;
     }
