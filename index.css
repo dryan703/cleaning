@@ -461,8 +461,6 @@ footer a:hover {
     .Service .serv-img .laun {
         width: 100%;
     }
-    .Service .sets p {
-    }
     .grid .grid-lit {
         flex-direction: column;
     }
@@ -487,3 +485,4 @@ footer a:hover {
     .testimonial .contact {
         margin-left: 0px;
     }
+}
