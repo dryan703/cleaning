@@ -56,7 +56,7 @@ body {
     background-color: darkgoldenrod;
 }
 .upper-side {
-    background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)),url(img/clean1.jpg)center/cover no-repeat;
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)),url(img/clean5.jpg)center/cover no-repeat;
 }
 .upper-side .para {
     padding: 190px 40px;
@@ -191,7 +191,7 @@ body {
     margin-bottom: 30px; 
 }
 .Service .serv-img .win {
-    background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/clean5.jpg)center/cover no-repeat;
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)), url(img/clean1.jpg)center/cover no-repeat;
     width: 40%;
 }
 .Service .serv-img .laun {
@@ -485,4 +485,3 @@ footer a:hover {
     .testimonial .contact {
         margin-left: 0px;
     }
-}
