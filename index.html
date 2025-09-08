@@ -10,15 +10,15 @@
     <header>
         <div class="nav-bar">
             <div class="logo">
-                <h2 style="font-style: italic;">Clean</h2>
-                <h1 class="up">up</h1>
+                <a href="#home"><h2 style="font-style: italic;">Clean</h2>
+                <h1>up</h1></a>
            </div>
            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONNECT</a></li>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#connect">CONNECT</a></li>
                 </ul>
            </nav>
            <div class="buttn">
@@ -30,7 +30,7 @@
         </div>
     </header>
     <section class="upper-side">
-        <div class="para">
+        <div class="para" id="home">
             <h4>Professional Cleaning Services</h4>
             <h1>Effortless Cleaning, Exceptional Results</h1>
             <p>
@@ -76,7 +76,7 @@
             <p>Emergency Support</p>
         </div>
     </section>
-    <section class="Service">
+    <section class="Service" id="service">
         <h1>Our Top-notch Services</h1>
         <p>Our home service sure a pristine spaceand and your complete peace of mind</p>
         <div class="serv-img">
@@ -139,7 +139,7 @@
         </div>
     </section>
     <section class="choose">
-        <div class="why-choos">
+        <div class="why-choos" id="about">
             <h2>Why Choose Us</h2>
             <p class="asps"> 
                 We don’t just clean, we care. Our expert team uses top-quality products <br> and modern equipment to make every
@@ -216,7 +216,7 @@
         </div>
         <div class="atss"><img src="img/clean8.jpeg" alt=""></div>
     </section>
-    <section class="testimonial">
+    <section class="testimonial" id="connect">
         <div class="matt testimony">
             <div class="tes-card">
                 <h2>Testimonials</h2>
@@ -258,5 +258,7 @@
         <div class="f-btn"><a href="">GET IN TOUCH</a></div>
         <p>design by <span class="f-dry"><a href="#">Dryan Codes</a></span></p>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
