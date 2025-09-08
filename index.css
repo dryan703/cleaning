@@ -55,6 +55,12 @@ body {
 .nav-bar .nav-btn:hover {
     background-color: darkgoldenrod;
 }
+.hamburger {
+    font-size: 34px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
 .upper-side {
     background: linear-gradient(to right, rgba(2, 2, 2, 0.4), rgba(0, 14, 1, 0.2)),url(img/clean5.jpg)center/cover no-repeat;
 }
@@ -427,11 +433,26 @@ footer a:hover {
     text-decoration: underline;
 }
 @media (max-width: 768px) {
-    header nav a {
-        display: none;
-    }
     header .buttn{
         display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        top: 100px;
+        right: 20px;
+        background-color: #444;
+        width: 300px;
+        padding: 20px;
+        border-radius: 8px;
+        display: none;
+        position: absolute;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
     }
     .upper-side .para h1 {
         padding: 5px;
@@ -485,3 +506,4 @@ footer a:hover {
     .testimonial .contact {
         margin-left: 0px;
     }
+}
